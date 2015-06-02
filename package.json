@@ -1,0 +1,32 @@
+{
+  "name": "stream-promise",
+  "version": "1.0.0",
+  "description": "writable stream which resolves promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tspec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvinmetcalf/stream-promise.git"
+  },
+  "keywords": [
+    "stream",
+    "promise"
+  ],
+  "author": "Calvin W. Metcalf <calvin.metcalf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calvinmetcalf/stream-promise/issues"
+  },
+  "homepage": "https://github.com/calvinmetcalf/stream-promise#readme",
+  "devDependencies": {
+    "tap-spec": "^4.0.0",
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "io-stream": "^2.0.2",
+    "lie": "^2.9.1"
+  }
+}
